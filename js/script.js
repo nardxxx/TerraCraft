@@ -120,6 +120,17 @@ function checkIfClickedTargetOnItem(e) {
 
 //SLIDERS
 
+
+
+
+// const contantUs = document.querySelector('.elementor-icon-list-text'),
+// 	popUp = document.querySelector('.jet-popup');
+
+// contantUs.addEventListener('click', e => {
+// 	console.log('a');
+// 	popUp.classList.remove('jet-popup--show-state');
+// });
+
 //MENU BURGER
 $('.wrapper').addClass('loaded');
 $('.icon-menu__item').click(function (event) {
@@ -127,6 +138,7 @@ $('.icon-menu__item').click(function (event) {
   $('.menu__body').toggleClass('active');
   $('body').toggleClass('lock');
 });
+
 
 //INTERACTIVE BACKGROUND
 function ibg() {
@@ -150,6 +162,8 @@ const tags = document.querySelector('.main-form__tags'),
   selectOptions = document.querySelectorAll('.select-header__option'),
   formCancel = document.querySelector('.buttons-main-form__button'),
   formSubmit = document.querySelector('.buttons-main-form__button[type="submit"]');
+
+
 
 formCancel.addEventListener('click', e => {
   e.preventDefault();
