@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html dir="ltr">
+
 <head>
   <title>TerraCraft</title>
   <meta charset="utf-8">
@@ -14,37 +15,48 @@
 
 <body>
   <div class="wrapper">
+    <div class="backGround-video">
+      <video loop autoplay playsinline poster="./img/main-bg.webp" id="tape">
+        <source src="./img/inv-bg.mp4" type="video/mp4">
+      </video>
+    </div>
     <header class="header">
-    	<div class="_container">
-    		<div class="header__row">
-    			<div class="header__logo">
-    				<picture>
-    					<source srcset="img/logo-small.png" media="(max-width:768px)">
-    					<img src=" img/logo.png" alt="logo">
-    				</picture>
-    			</div>
-    			<div class="header__role">
-    				Your Role:
-    				<div class="select-header">
-    					<div class="select-header__title">a</div>
-    					<ul class="select-header__menu">
-    						<li class="select-header__option"><span>EXP</span>Expert</li>
-    						<li class="select-header__option"><span>INV</span>Investor</li>
-    						<li class="select-header__option"><span>BSN</span>Business</li>
-    						<li class="select-header__option"><span>USR</span>User</li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="header__buttons">
-    				<img src="img/icons/net.svg" alt="net">
-    				<span>ENG</span>
-    				<img src="img/icons/logIn.svg" alt="logIn">
-    				<span>Sign in</span>
-    				<img src="img/icons/menu.svg" alt="menu">
-    				<span>MENU</span>
-    			</div>
-    		</div>
-    	</div>
+      <div class="_container">
+        <div class="header__row">
+          <div class="header__logo">
+            <picture>
+              <source srcset="img/logo-small.png" media="(max-width:768px)">
+              <img src=" img/logo.png" alt="logo">
+            </picture>
+          </div>
+          <div class="header__role">
+            Your Role:
+            <div class="select-header">
+              <div class="select-header__title">a</div>
+              <ul class="select-header__menu">
+                <li class="select-header__option"><span>EXP</span>Expert</li>
+                <li class="select-header__option"><span>INV</span>Investor</li>
+                <li class="select-header__option"><span>BSN</span>Business</li>
+                <li class="select-header__option"><span>USR</span>User</li>
+              </ul>
+            </div>
+          </div>
+          <div class="header__buttons">
+            <button class="header__button">
+              <img src="img/icons/net.svg" alt="net">
+              <span>ENG</span>
+            </button>
+            <button class="header__button">
+              <img src="img/icons/logIn.svg" alt="logIn">
+              <span>Sign in</span>
+            </button>
+            <button class="header__button">
+              <img src="img/icons/menu.svg" alt="menu">
+              <span>MENU</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="content">
@@ -349,38 +361,6 @@
               <button class="buttons-main-form__button">Cancel</button>
               <button class="buttons-main-form__button" type="submit">Next</button>
             </div>
-
-            <div class="buttons-main-form__steps steps">
-              <div class="steps__block active">
-                <span>Step</span>
-                <div class="steps__step">
-                  1
-                </div>
-              </div>
-
-              <div class="steps__block">
-                <span>Step</span>
-                <div class="steps__step">
-                  2
-                </div>
-              </div>
-
-
-              <div class="steps__block">
-                <span>Step</span>
-                <div class="steps__step">
-                  3
-                </div>
-              </div>
-
-              <div class="steps__block">
-                <span>Step</span>
-                <div class="steps__step">
-                  4
-                </div>
-              </div>
-
-            </div>
           </div>
         </form>
       </section>
@@ -389,56 +369,56 @@
     </main>
 
     <footer class="footer">
-    	<div class="_container footer__container">
-    		<div class="footer__row">
+      <div class="_container footer__container">
+        <div class="footer__row">
 
-    			<div class="footer__column footer__column_1">
-    				<div class="footer__home">
-    					<img src="img/icons/home.svg" alt="house">
-    					HOME
-    				</div>
+          <div class="footer__column footer__column_1">
+            <div class="footer__home">
+              <img src="img/icons/home.svg" alt="house">
+              HOME
+            </div>
 
-    				<ul class="footer__list">
-    					<li><a href="">FAQ</a></li>
-    					<li><a href="">Contact Us</a></li>
-    					<li><a href="">Community Guideline</a></li>
-    					<li><a href="">Privacy Policy</a></li>
-    					<li><a href="">Terms of Service</a></li>
-    				</ul>
+            <ul class="footer__list">
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Community Guideline</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms of Service</a></li>
+            </ul>
 
-    				<div class="footer__answers">
-    					<span>Calculator</span>
-    					<span>Solutions</span>
-    					<span>Offset certificates</span>
-    					<span>API</span>
-    				</div>
+            <div class="footer__answers">
+              <span>Calculator</span>
+              <span>Solutions</span>
+              <span>Offset certificates</span>
+              <span>API</span>
+            </div>
 
-    			</div>
+          </div>
 
-    			<div class="footer__column footer__column_2">
-    				<div class="footer__about about-footer">
-    					<div class="about-footer__title">
-    						Designed by: FCE GROUP AG <br>
-    						Platz 4, 6039 Root D4, Switzerland
-    					</div>
-    					<div class="about-footer__row">
-    						<img src="img/smile.jpg" alt="greenweb">
-    						<img src="img/palitre.png" alt="palitre">
-    					</div>
-    				</div>
+          <div class="footer__column footer__column_2">
+            <div class="footer__about about-footer">
+              <div class="about-footer__title">
+                Designed by: FCE GROUP AG <br>
+                Platz 4, 6039 Root D4, Switzerland
+              </div>
+              <div class="about-footer__row">
+                <img src="img/smile.jpg" alt="greenweb">
+                <img src="img/palitre.png" alt="palitre">
+              </div>
+            </div>
 
-    				<div class="footer__links footer-links">
-    					<a href="#">Copyright © 2021</a>
-    					<div class="footer-links__social">
-    						<img src="img/social/inst.svg" alt="instagramm">
-    						<img src="img/social/facebook.svg" alt="facebook">
-    						<img src="img/social/twitter.svg" alt="twitter">
-    						<img src="img/social/in.svg" alt="in">
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+            <div class="footer__links footer-links">
+              <a href="#">Copyright © 2021</a>
+              <div class="footer-links__social">
+                <img src="img/social/inst.svg" alt="instagramm">
+                <img src="img/social/facebook.svg" alt="facebook">
+                <img src="img/social/twitter.svg" alt="twitter">
+                <img src="img/social/in.svg" alt="in">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <div class="help">
       <div class="help__row">
@@ -454,7 +434,6 @@
 
   <script src='js/jquery-3.5.1.js'></script>
   <script src='js/splide.min.js'></script>
-
   <script src="js/script.min.js"></script>
 
 </body>
