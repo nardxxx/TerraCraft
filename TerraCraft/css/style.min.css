@@ -1694,6 +1694,7 @@ body.lock {
        -moz-columns: 1;
             columns: 1;
     margin-bottom: 0px;
+    text-align: left;
   }
 
   .footer__list li {
